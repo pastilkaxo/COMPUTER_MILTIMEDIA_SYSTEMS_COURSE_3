@@ -1,0 +1,39 @@
+footer {
+  height: 150px;
+  width: 100%;
+  color: white;
+  background-color: #662e1c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  & .author {
+    padding: 25px;
+  }
+  & .main_footer_content {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    & .footer_logo {
+      width: 80px;
+    }
+  }
+  & ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    & li a {
+      text-decoration: none;
+    }
+  }
+  & .recieved_rights {
+    text-align: center;
+    width: 100%;
+  }
+}

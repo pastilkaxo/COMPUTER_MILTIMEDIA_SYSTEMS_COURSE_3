@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="authoring-tool" content="Adobe_Animate_CC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-дизайн и разработка мультимедийных изданий</title>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script src="картаУстановки.js?1726162726489"></script>
+    <script>
+      var canvas, stage, exportRoot;
+      function init() {
+        canvas = document.getElementById("canvas");
+        images = images || {};
+        var loader = new createjs.LoadQueue(false);
+        loader.installPlugin(createjs.Sound);
+        loader.addEventListener("fileload", handleFileLoad);
+        loader.addEventListener("complete", handleComplete);
+        loader.loadManifest(lib.properties.manifest);
+      }
+      function handleFileLoad(evt) {
+        if (evt.item.type == "image") {
+          images[evt.item.id] = evt.result;
+        }
+      }
+      function handleComplete(evt) {
+        //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+        var queue = evt.target;
+        var ssMetadata = lib.ssMetadata;
+        for (i = 0; i < ssMetadata.length; i++) {
+          ss[ssMetadata[i].name] = new createjs.SpriteSheet({
+            images: [queue.getResult(ssMetadata[i].name)],
+            frames: ssMetadata[i].frames,
+          });
+        }
+        exportRoot = new lib.картаУстановки();
+        stage = new createjs.Stage(canvas);
+        stage.addChild(exportRoot);
+        stage.enableMouseOver();
+        //Registers the "tick" event listener.
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+        //Code to support hidpi screens and responsive scaling.
+        (function (isResp, respDim, isScale, scaleType) {
+          var lastW,
+            lastH,
+            lastS = 1;
+          window.addEventListener("resize", resizeCanvas);
+          resizeCanvas();
+          function resizeCanvas() {
+            var w = lib.properties.width,
+              h = lib.properties.height;
+            var iw = window.innerWidth,
+              ih = window.innerHeight;
+            var pRatio = window.devicePixelRatio || 1,
+              xRatio = iw / w,
+              yRatio = ih / h,
+              sRatio = 1;
+            if (isResp) {
+              if (
+                (respDim == "width" && lastW == iw) ||
+                (respDim == "height" && lastH == ih)
+              ) {
+                sRatio = lastS;
+              } else if (!isScale) {
+                if (iw < w || ih < h) sRatio = Math.min(xRatio, yRatio);
+              } else if (scaleType == 1) {
+                sRatio = Math.min(xRatio, yRatio);
+              } else if (scaleType == 2) {
+                sRatio = Math.max(xRatio, yRatio);
+              }
+            }
+            canvas.width = w * pRatio * sRatio;
+            canvas.height = h * pRatio * sRatio;
+            canvas.style.width = w * sRatio + "px";
+            canvas.style.height = h * sRatio + "px";
+            stage.scaleX = pRatio * sRatio;
+            stage.scaleY = pRatio * sRatio;
+            lastW = iw;
+            lastH = ih;
+            lastS = sRatio;
+          }
+        })(false, "both", false, 1);
+      }
+      function playSound(id, loop) {
+        return createjs.Sound.play(
+          id,
+          createjs.Sound.INTERRUPT_EARLY,
+          0,
+          0,
+          loop
+        );
+      }
+    </script>
+    <link rel="stylesheet" href="/style/Main.css" />
+  </head>
+  <body onload="init();" class="structure_body">
+    <header>
+      <div class="logo_container">
+        <img src="/img/bstu.png" alt="logo" />
+        <a class="icon" onclick="openBurger()"
+          ><img src="/img/burger-bar.png" alt="burger"
+        /></a>
+      </div>
+      <div>
+        <ul class="menu_list" id="myTabs">
+          <li><a href="./index.html">Главная</a></li>
+          <li><a href="./theoryDetails.html">Теоретические сведения</a></li>
+          <li class="current">
+            <a href="./structure.html">Структура установки</a>
+          </li>
+          <li><a href="./simulator.html">Симулятор установки</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Галерея</h1>
+      <h3>Ниже представлены изображения установки с разных ракурсов.</h3>
+      <h3>
+        А так-же озвученная карта установки. (кликните на элемент установки).
+      </h3>
+      <div class="structure_wrapper">
+        <div class="galery_wrapper">
+          <h3>Карта установки:</h3>
+          <canvas id="canvas"></canvas>
+          <div class="galery">
+            <img class="part" src="/img/left.jpg" alt="left" />
+            <img
+              class="part"
+              src="./images/одель_.jpg"
+              alt="left"
+              id="middle_part"
+            />
+            <img class="part" src="/img/right.jpg" alt="right" />
+          </div>
+        </div>
+        <div class="elemets_list">
+          <h2>Список оборудования:</h2>
+          <ol>
+            <li>
+              <span class="part_name">Амперметр</span> - прибор для измерения
+              силы тока в амперах.
+            </li>
+            <li>
+              <span class="part_name">Вольтметр</span> - измерительный прибор
+              непосредственного отсчёта для <br />определения разности
+              электрических потенциалов, напряжения или <br />ЭДС в
+              электрических цепях.
+            </li>
+            <li>
+              <span class="part_name">Выпрямитель</span> - преобразователь
+              электрической энергии
+            </li>
+            <li>
+              <span class="part_name">Источник напряжения</span> - двухполюсник,
+              напряжение на зажимах которого
+              <br />
+              не зависит от тока
+            </li>
+            <li>
+              <span class="part_name">Лампа накаливания</span> - искусственный
+              источник света.
+            </li>
+            <li>
+              <span class="part_name">Миллиамперметр</span> - лабораторный
+              прибор электромагнитной системы
+            </li>
+            <li>
+              <span class="part_name">Энергия напряжения</span> - скалярная
+              физическая величина.
+            </li>
+          </ol>
+          <div class="work_princip">
+            <h2>Принцип работы:</h2>
+            <p>
+              Изображение лабораторной установки для измерения работы выхода
+              электрона представлена на карте слева Источником необходимых
+              напряжений для анодной цепи и цепи накала катода служит
+              <span class="dynamic_image">Выпрямитель</span>. Величина анодного
+              наА К Выпрямитель ∼ 220 В + − V1 A Rа Rнак V2 тA Рис. 38.1 52
+              <span class="dynamic_image">ЭЛЕКТРИЧЕСТВО</span>
+              НАПРЯЖЕНИЯ Uа регулируется делителем Ra и измеряется
+              <span class="dynamic_image">вольтметром</span> V1 , а сила
+              анодного тока Iа измеряется
+              <span class="dynamic_image">миллиамперметром</span> mA. Для
+              измерения напряжения накала Uнак используется вольтметр V2 . Сила
+              тока накала Iнак в цепи катода регулируется переменным резистором
+              Rнак и измеряется
+              <span class="dynamic_image">амперметром</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal_container">
+        <img class="modal_image" />
+      </div>
+    </main>
+    <footer>
+      <div class="main_footer_content">
+        <img src="/img/bstu.png" alt="footer_logo" class="footer_logo" />
+        <h3 class="author">Лемешевский Владислав Олегович ФИТ-3-2</h3>
+        <ul>
+          <li>
+            <a href="https://github.com\pastilkaxo"
+              ><img src="/img/github.svg" alt="github"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com\pastilkaxo"
+              ><img src="/img/insta.svg" alt="insta"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com\pastilkaxo"
+              ><img src="/img/linked.svg" alt="linked"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <span class="recieved_rights"
+        ><p>© All rights recieved and secured.</p></span
+      >
+    </footer>
+    <script src="/src/main.js"></script>
+    <script src="/src/galary.js"></script>
+  </body>
+</html>

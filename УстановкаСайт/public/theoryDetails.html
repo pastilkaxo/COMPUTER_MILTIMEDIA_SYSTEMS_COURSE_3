@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-дизайн и разработка мультимедийных изданий</title>
+    <link rel="stylesheet" href="/style/Main.css" />
+  </head>
+  <body class="theory-body">
+    <header>
+      <div class="logo_container">
+        <img src="/img/bstu.png" alt="logo" />
+        <a class="icon" onclick="openBurger()"
+          ><img src="/img/burger-bar.png" alt="burger"
+        /></a>
+      </div>
+      <div>
+        <ul class="menu_list" id="myTabs">
+          <li><a href="./index.html">Главная</a></li>
+          <li class="current">
+            <a href="./theoryDetails.html">Теоретические сведения</a>
+          </li>
+          <li><a href="./structure.html">Структура установки</a></li>
+          <li><a href="./simulator.html">Симулятор установки</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Введение</h1>
+      <div class="theory-main-content">
+        <div class="theory-component">
+          <img src="/img/schema.png" alt="schema" />
+          <p>
+            Схема лабораторной установки для измерения работы выхода электрона
+            представлена на рис. 38.1. Источником необходимых напряжений для
+            анодной цепи и цепи накала катода служит
+            <span class="dynamic_image">Выпрямитель</span>. Величина анодного
+            наА К Выпрямитель ∼ 220 В + − V1 A Rа Rнак V2 тA Рис. 38.1 52
+            <span class="dynamic_image">ЭЛЕКТРИЧЕСТВО</span> НАПРЯЖЕНИЯ Uа
+            регулируется делителем Ra и измеряется
+            <span class="dynamic_image">вольтметром</span> V1 , а сила анодного
+            тока Iа измеряется
+            <span class="dynamic_image">миллиамперметром</span> mA. Для
+            измерения напряжения накала Uнак используется вольтметр V2 . Сила
+            тока накала Iнак в цепи катода регулируется переменным резистором
+            Rнак и измеряется
+            <span class="dynamic_image">амперметром</span>
+          </p>
+        </div>
+
+        <div class="theory-component">
+          <p>
+            Известно, что величина плотности тока насыщения jн может быть
+            определена по формуле
+            <span class="dynamic_image">Ричардсона – Дешмена</span> (37.4).
+            Тогда с учетом того, что сила тока насыщения Iн = jн S (S − площадь
+            эмиссионной поверхности катода), можно записать.
+          </p>
+          <img src="/img/38_1.png" />
+        </div>
+        <div class="theory-component">
+          <img src="/img/38_2_3.png" />
+          <p>
+            Величина работы выхода А электрона из металла практически не зависит
+            от температуры, и в узком температурном интервале ее можно считать
+            постоянной. Поэтому можно записать выражение (38.1) для двух
+            различных температур катода Т1 и Т2, при которых измерены величины
+            силы тока насыщения соответственно Iн1 и Iн2 :
+          </p>
+        </div>
+        <div class="theory-component">
+          <p>
+            Запишем отношение выражений (38.2) и (38.3), прологарифмируем его и
+            выразим работу выхода А:
+          </p>
+          <img src="/img/38_4.png" />
+        </div>
+        <div class="theory-component">
+          <img src="/img/38_6.png" />
+          <p>
+            Так как обычно работу выхода А выражают в электрон-вольтах (1 эВ =
+            1,6 ⋅ 10−19 Дж), перепишем формулу (38.4), учитывая значение
+            постоянной Больцмана k = 1,38 . 10–23 Дж K−1 . Таким образом,
+            получим расчетную формулу для величины работы А (в эВ) в следующем
+            виде:
+          </p>
+        </div>
+        <div class="theory-component">
+          <p style="text-align: justify">
+            При расчете работы выхода А по формуле (38.5) необходимо знать
+            температуру катода. В данной лабораторной работе предлагается ее
+            определить косвенными методами. В основу этих методов положены
+            зависимости потребляемой мощности либо сопротивления материала от
+            температуры. Измерив значения Uнак и Iнак, по закону Джоуля − Ленца
+            или закону Ома находят либо потребляемую мощность
+            <span>PT = Uнак Iнак</span>, либо сопротивление
+            <span>RT = (Uнак/Iнак)</span>
+            катода при данной температуре Т. Затем по графику зависимости
+            потребляемой мощности PT = f(T) либо сопротивления RT = f(T) катода
+            от температуры, которые предварительно экспериментально измерены для
+            материала катода ламп, используемых в экспериментальной установке,
+            определяют температуру катода. Графики указанных зависимостей
+            приведены в приложении к лабораторной работе.
+          </p>
+        </div>
+      </div>
+      <div class="modal_container">
+        <img class="modal_image" />
+      </div>
+    </main>
+    <footer>
+      <div class="main_footer_content">
+        <img src="/img/bstu.png" alt="footer_logo" class="footer_logo" />
+        <h3 class="author">Лемешевский Владислав Олегович ФИТ-3-2</h3>
+        <ul>
+          <li>
+            <a href="https://github.com\pastilkaxo"
+              ><img src="/img/github.svg" alt="github"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com\pastilkaxo"
+              ><img src="/img/insta.svg" alt="insta"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com\pastilkaxo"
+              ><img src="/img/linked.svg" alt="linked"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <span class="recieved_rights"
+        ><p>© All rights recieved and secured.</p></span
+      >
+    </footer>
+    <script src="/src/main.js"></script>
+  </body>
+</html>

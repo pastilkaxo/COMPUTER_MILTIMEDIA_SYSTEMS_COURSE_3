@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+.menu-body {
+  background-color: rgba(128, 128, 128, 0.411);
+}
+
+header {
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #af4425;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 50px;
+}
+header img {
+  width: 150px;
+}
+header div {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div .icon {
+  display: none;
+}
+header div ul {
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style-type: none;
+}
+header div ul li {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 2s ease-in-out;
+}
+header div ul li:hover {
+  transform: scale(1.3);
+}
+header div ul li a {
+  text-decoration: none;
+  color: white;
+}
+header div ul .current a {
+  color: orange;
+}
+
+.theory-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.theory-body main {
+  width: 100%;
+  box-shadow: none;
+  background-color: #662e1c;
+}
+.theory-body main .modal_container {
+  display: none;
+}
+.theory-body main .modal_container_active {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.566);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+}
+.theory-body main .modal_container_active img {
+  width: 500px;
+}
+.theory-body main h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.theory-body main .theory-main-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.theory-body main .theory-main-content .theory-component {
+  border-radius: 25px;
+  background-color: #c9a66b;
+  margin-bottom: 25px;
+  padding: 25px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.theory-body main .theory-main-content .theory-component p {
+  text-align: justify;
+  font-size: 17px;
+  width: 400px;
+}
+.theory-body main .theory-main-content .theory-component p span {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  transition: transform 1.5s ease-in-out;
+}
+.theory-body main .theory-main-content .theory-component p span:hover {
+  cursor: pointer;
+}
+.theory-body main .theory-main-content .theory-component img {
+  width: 300px;
+  transition: transform 2s ease-in-out;
+}
+.theory-body main .theory-main-content .theory-component img:hover {
+  transform: scale(2);
+}
+.theory-body footer {
+  left: 0;
+  bottom: 0;
+}
+
+.structure_body main {
+  border-radius: 0;
+  margin-top: 85px;
+  width: 100%;
+}
+.structure_body main .structure_wrapper {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.structure_body main .structure_wrapper .galery_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.structure_body main .modal_container {
+  display: none;
+}
+.structure_body main h1 {
+  text-align: justify;
+  margin: 25px;
+  text-transform: uppercase;
+}
+.structure_body main h3 {
+  text-align: justify;
+  margin: 15px;
+}
+.structure_body main h2 {
+  text-align: justify;
+  margin-top: 30px;
+}
+.structure_body main .work_princip {
+  background-color: #af4425;
+  border-radius: 25px;
+  padding: 5px 25px 25px 25px;
+}
+.structure_body main .work_princip h2 {
+  margin-bottom: 15px;
+}
+.structure_body main .work_princip .dynamic_image {
+  color: rgb(235, 244, 141);
+  cursor: pointer;
+}
+.structure_body main .elemets_list {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.structure_body main .elemets_list li {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 25px;
+}
+.structure_body main .elemets_list li span {
+  color: red;
+}
+.structure_body main .elemets_list li span .scoped_img {
+  transition: transform 2s ease-in-out;
+}
+.structure_body main canvas {
+  display: block;
+  background-color: rgb(255, 255, 255);
+}
+.structure_body main .modal_container_active {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.566);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+}
+.structure_body main .modal_container_active img {
+  width: 500px;
+}
+.structure_body main .galery {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.structure_body main .galery img {
+  width: 300px;
+}
+.structure_body main .galery #middle_part {
+  display: none;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  color: white;
+  background-color: #662e1c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+footer .author {
+  padding: 25px;
+}
+footer .main_footer_content {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 350px;
+}
+footer .main_footer_content .footer_logo {
+  width: 80px;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer .recieved_rights {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    border-radius: 0;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0;
+  }
+  header .logo_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  header img {
+    width: 50px;
+  }
+  header div ul {
+    padding-bottom: 0;
+  }
+  header #myTabs {
+    display: none;
+  }
+  header #myTabs li {
+    width: 100vw;
+    padding: 20px;
+    background-color: black;
+  }
+  header div {
+    margin-right: 0;
+  }
+  header div .icon {
+    display: block;
+  }
+  footer {
+    height: auto;
+  }
+  footer .main_footer_content {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .main_body main {
+    text-align: center;
+  }
+  .theory-body main {
+    margin-top: 50px;
+    padding: 0;
+    border-radius: 0px;
+  }
+  .theory-body main h1 {
+    margin-top: 25px;
+  }
+  .theory-body main .theory-main-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .theory-body main .theory-main-content .theory-component {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 0;
+    flex-direction: column;
+  }
+  .theory-body main .theory-main-content .theory-component img {
+    width: 350px;
+  }
+  .theory-body main .theory-main-content .theory-component img:hover {
+    transform: scale(1.2);
+  }
+  .theory-body main .theory-main-content .theory-component p {
+    width: 75%;
+  }
+  .structure_body main {
+    border-radius: 0;
+    margin-top: 85px;
+  }
+  .structure_body main .structure_wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .structure_body main h1 {
+    margin: 25px;
+  }
+  .structure_body main canvas {
+    width: 300px;
+    height: 200px;
+  }
+  .structure_body main canvas {
+    display: none;
+  }
+  .structure_body main .galery {
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .structure_body main .galery #middle_part {
+    display: block;
+  }
+  .structure_body main .elemets_list {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-blend-mode: difference;
+  background-color: #ebdcb2;
+}
+
+main {
+  margin-bottom: 100px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #662e1c;
+  color: white;
+}
+
+.main_body main {
+  border-radius: 20px;
+  height: 30vh;
+  padding: 35px;
+}/*# sourceMappingURL=Main.css.map */
