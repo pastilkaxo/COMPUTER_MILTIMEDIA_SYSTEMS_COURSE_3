@@ -51,13 +51,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ConfigureTable.cs" />
      <Compile Include="Assets\Scripts\AmpermetrBtn.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\ColorChanger.cs" />
+     <Compile Include="Assets\Scripts\DrawerScript.cs" />
+     <Compile Include="Assets\Scripts\PracticeBtnChanger.cs" />
      <Compile Include="Assets\Scripts\QuestionButton.cs" />
      <Compile Include="Assets\Scripts\Replacer.cs" />
+     <Compile Include="Assets\Scripts\TableScript.cs" />
+     <Compile Include="Assets\Scripts\TaskBtnScript.cs" />
      <Compile Include="Assets\Scripts\VklAnimController.cs" />
      <Compile Include="Assets\Scripts\VoltmetrAnimControl.cs" />
+     <Compile Include="Assets\TableVisibleScript.cs" />
+     <Compile Include="Assets\Task1.cs" />
+     <Compile Include="Assets\Task2.cs" />
+     <Compile Include="Assets\Task3.cs" />
+     <Compile Include="Assets\Task4.cs" />
+     <Compile Include="Assets\Task5.cs" />
+     <Compile Include="Assets\Task6.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>

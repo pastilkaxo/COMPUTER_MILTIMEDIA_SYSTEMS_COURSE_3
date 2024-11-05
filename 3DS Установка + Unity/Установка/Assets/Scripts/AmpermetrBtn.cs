@@ -9,6 +9,8 @@ public class AmpermetrBtn : MonoBehaviour {
     Text message;
     [SerializeField]
     GameObject textBack;
+    [SerializeField]    
+    GameObject pointer;
 
     public void PointerEnter()
     {
@@ -37,20 +39,26 @@ public class AmpermetrBtn : MonoBehaviour {
             case "LampaBtn":
                 message.text = "Лампа накаливания - искусственный источник света.";
                 break;
+            case "PracticeBtn":
+                message.text = "Включите установку.";
+                break;
+            default:
+                message.text = "Информация о текущем состоянии установки.";
+                break;
         }
     }
 
 
     public void PointerExit()
     {  
-        Close();
+       Close();
     }
 
 
     public void Open()
     {
         textBack.SetActive(true);
-
+        pointer.SetActive(true);
     }
 
     public void Close()
@@ -60,8 +68,7 @@ public class AmpermetrBtn : MonoBehaviour {
 
 
     void Start () {
-        Debug.Log(transform.name);
-        Close();
+     Close();
     }
 	
 	void Update () {

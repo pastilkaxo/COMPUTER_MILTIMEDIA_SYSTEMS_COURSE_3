@@ -22,6 +22,8 @@ public class QuestionButton : MonoBehaviour {
     }
 
 
+
+
     public void OnExit() {  //  МЕТОД, ВЫЗЫВАЕМЫЙ ПОЛЬЗОВАТЕЛЕМ ПРИ УХОДЕ КУРСОРА МЫШИ С КНОПКИ
         Close();
     }
