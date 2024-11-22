@@ -1,60 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web-дизайн и разработка мультимедийных изданий</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Unity WebGL Player | Ustanovka</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <link rel="stylesheet" href="TemplateData/style.css" />
     <link rel="stylesheet" href="/style/Main.css" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "Build/public.json",
+        { onProgress: UnityProgress }
+      );
+    </script>
   </head>
-  <body class="main_body">
-    <header>
-      <div class="logo_container">
-        <img src="/img/bstu.png" alt="logo" />
-        <a class="icon" onclick="openBurger()"
-          ><img src="/img/burger-bar.png" alt="burger"
-        /></a>
-      </div>
-      <div>
-        <ul class="menu_list" id="myTabs">
-          <li><a href="./index.html">Главная</a></li>
-          <li><a href="./theoryDetails.html">Теоретические сведения</a></li>
-          <li><a href="./structure.html">Структура установки</a></li>
-          <li class="current">
-            <a href="./simulator.html">Симулятор установки</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+  <body>
     <main>
-      <h3>3D Симулятор установки в Unity WebGL</h3>
-      <h2>...</h2>
+      <div class="webgl-content">
+        <div id="gameContainer" style="width: 1920px; height: 800px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+          <div class="title">Ustanovka</div>
+        </div>
+      </div>
     </main>
     <footer>
-      <div class="main_footer_content">
-        <img src="/img/bstu.png" alt="footer_logo" class="footer_logo" />
-        <h3 class="author">Лемешевский Владислав Олегович ФИТ-3-2</h3>
-        <ul>
-          <li>
-            <a href="https://github.com\pastilkaxo"
-              ><img src="/img/github.svg" alt="github"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com\pastilkaxo"
-              ><img src="/img/insta.svg" alt="insta"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com\pastilkaxo"
-              ><img src="/img/linked.svg" alt="linked"
-            /></a>
-          </li>
+      <div>
+        <ul class="menu_list" id="myTabs">
+          <li class="current"><a href="./index.html">Главная</a></li>
+          <li><a href="./theoryDetails.html">Теоретические сведения</a></li>
+          <li><a href="./structure.html">Структура установки</a></li>
+          <li><a href="./simulator.html">Симулятор установки</a></li>
         </ul>
       </div>
-      <span class="recieved_rights"
-        ><p>© All rights recieved and secured.</p></span
-      >
     </footer>
-    <script src="/src/main.js"></script>
   </body>
 </html>

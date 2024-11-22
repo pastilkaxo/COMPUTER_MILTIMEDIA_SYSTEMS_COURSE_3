@@ -1,34 +1,64 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Task1 : MonoBehaviour {
 
-	[SerializeField]
-	GameObject Rnak;
 
-	float x, y, z;
+    public bool isDone = false;
+    bool isDragging = false;
 
-
-	public void OnMouseDown()
-	{
-        if (Input.GetMouseButton(0))
-        {
-			Vector3 newPos = Rnak.transform.position + Rnak.transform.TransformDirection(new Vector3(-4.5f,0,0));
-			Rnak.transform.position = newPos;
-        }
-	}
+    float mouseSpeed = 0.10f;
 
 
-	// Use this for initialization
-	void Start () {
+    VklAnimController started;
+    GameObject startObj;
 
-	}
+
+    Vector3 ClampPos(Vector3 position)
+    {
+        float clapedX = Mathf.Clamp(position.x, 143.7f, 148.1f);
+        return new Vector3(clapedX, position.y, position.z);
+    }
+
+
+    public void OnMouseDown()
+    {
+        //Vector3 newPos = gameObject.transform.position + gameObject.transform.TransformDirection(new Vector3(-4.5f, 0, 0));
+        //transform.position = Vector3.Lerp(transform.position, ClampPos(newPos), mouseSpeed);
+        isDragging = true;
+
+    }
+
+    public void OnMouseUp()
+    {
+        isDragging = false;
+    }
+
+
+    void Start()
+    {
+        startObj = GameObject.Find("крутилкаЦентр001");
+        started = startObj.AddComponent<VklAnimController>();
+    }
+
+  
 	
 	// Update is called once per frame
 	void Update () {
-        x = transform.position.x; y = transform.position.y; z = transform.position.z;
-        Debug.Log("x:" + x.ToString() + " y:" + y.ToString() + " z:" + z.ToString());
 
+        if(isDragging)
+        {
+            float mouseDelta = Input.GetAxis("Mouse X");
+            transform.Translate(Vector3.left * mouseDelta * mouseSpeed);
+            transform.position = ClampPos(transform.position);
+        
+        }
+
+        if (transform.position.x < 144f)
+            isDone = true;
+        else
+            isDone = false;
     }
 }
