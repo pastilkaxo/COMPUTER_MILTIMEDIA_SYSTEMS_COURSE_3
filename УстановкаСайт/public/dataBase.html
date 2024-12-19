@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web-дизайн и разработка мультимедийных изданий</title>
     <link rel="stylesheet" href="/style/Main.css" />
+    <script src="/src/jquery.js"></script>
+    <script src="/src/dialog.js"></script>
   </head>
-  <body class="main_body">
+  <body class="main_body" onLoad="dialog_window()">
     <header>
       <div class="logo_container">
         <img src="/img/bstu.png" alt="logo" />
@@ -16,18 +18,16 @@
       </div>
       <div>
         <ul class="menu_list" id="myTabs">
-          <li class="current"><a href="./index.html">Главная</a></li>
+          <li><a href="./index.html">Главная</a></li>
           <li><a href="./theoryDetails.html">Теоретические сведения</a></li>
           <li><a href="./structure.html">Структура установки</a></li>
           <li><a href="./simulator.html">Симулятор установки</a></li>
-          <li><a href="./dataBase.html">База знаний</a></li>
+          <li class="current"><a href="./dataBase.html">База знаний</a></li>
         </ul>
       </div>
     </header>
-    <main>
-      <h3>Тема:</h3>
-      <h2>Определение работы выхода электрона из металла. ЛР №38.</h2>
-    </main>
+    <main></main>
+
     <footer>
       <div class="main_footer_content">
         <img src="/img/bstu.png" alt="footer_logo" class="footer_logo" />
@@ -55,5 +55,6 @@
       >
     </footer>
     <script src="/src/main.js"></script>
+    <script src="/src/Vocablurary.js"></script>
   </body>
 </html>

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\assets\\scripts\\replacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\replacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|c:\\users\\\u0432\u043B\u0430\u0434\\desktop\\\u043B\u0430\u0431\u044B\u043A\u043C\u0441\\3ds \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B unity\\\u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\assets\\configuretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|solutionrelative:assets\\configuretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\assets\\scripts\\questionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\assets\\scripts\\replacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2493B329-4FEC-181B-A7F9-78C9AD26592E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\replacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +98,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task3.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task3.cs",
-              "RelativeDocumentMoniker": "Assets\\Task3.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task3.cs",
-              "RelativeToolTip": "Assets\\Task3.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAuwFcAAAAvAAAA",
+              "DocumentIndex": 6,
+              "Title": "CheckTasks.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\CheckTasks.cs",
+              "RelativeDocumentMoniker": "Assets\\CheckTasks.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\CheckTasks.cs",
+              "RelativeToolTip": "Assets\\CheckTasks.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwDMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T06:33:24.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:21:37.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Task1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task1.cs",
+              "RelativeDocumentMoniker": "Assets\\Task1.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task1.cs",
+              "RelativeToolTip": "Assets\\Task1.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T20:39:27.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TableVisibleScript.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\TableVisibleScript.cs",
+              "RelativeDocumentMoniker": "Assets\\TableVisibleScript.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\TableVisibleScript.cs",
+              "RelativeToolTip": "Assets\\TableVisibleScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:06:10.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PracticeBtnChanger.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\PracticeBtnChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PracticeBtnChanger.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\PracticeBtnChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PracticeBtnChanger.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:21:50.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DrawerScript.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\DrawerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrawerScript.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\DrawerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrawerScript.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:12:54.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskBtnScript.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TaskBtnScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TaskBtnScript.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TaskBtnScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TaskBtnScript.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:10:06.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CameraScript.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\CameraScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScript.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\CameraScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraScript.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAuwEsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:58:16.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VoltmetrAnimControl.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VoltmetrAnimControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VoltmetrAnimControl.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VoltmetrAnimControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VoltmetrAnimControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:16:29.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ColorChanger.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\ColorChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ColorChanger.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\ColorChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ColorChanger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:59:37.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AmpermetrBtn.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\AmpermetrBtn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AmpermetrBtn.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\AmpermetrBtn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AmpermetrBtn.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:03:54.948Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Replacer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\Replacer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Replacer.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\Replacer.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Replacer.cs*",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:03:21.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableScript.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TableScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TableScript.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TableScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TableScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:14:09.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task2.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task2.cs",
+              "RelativeDocumentMoniker": "Assets\\Task2.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task2.cs",
+              "RelativeToolTip": "Assets\\Task2.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswD4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:21:11.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VklAnimController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VklAnimController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VklAnimController.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VklAnimController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VklAnimController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:39:08.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ConfigureTable.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\ConfigureTable.cs",
               "RelativeDocumentMoniker": "Assets\\ConfigureTable.cs",
@@ -124,179 +280,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VklAnimController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VklAnimController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VklAnimController.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VklAnimController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VklAnimController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:39:08.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task2.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task2.cs",
-              "RelativeDocumentMoniker": "Assets\\Task2.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task2.cs",
-              "RelativeToolTip": "Assets\\Task2.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAswD4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T17:21:11.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TableScript.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TableScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TableScript.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TableScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TableScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:14:09.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CheckTasks.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\CheckTasks.cs",
-              "RelativeDocumentMoniker": "Assets\\CheckTasks.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\CheckTasks.cs",
-              "RelativeToolTip": "Assets\\CheckTasks.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAcwDMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:21:37.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Task1.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task1.cs",
-              "RelativeDocumentMoniker": "Assets\\Task1.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task1.cs",
-              "RelativeToolTip": "Assets\\Task1.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswBkAAAAdAAAA",
+              "Title": "Task3.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task3.cs",
+              "RelativeDocumentMoniker": "Assets\\Task3.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Task3.cs",
+              "RelativeToolTip": "Assets\\Task3.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwFcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T20:39:27.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TableVisibleScript.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\TableVisibleScript.cs",
-              "RelativeDocumentMoniker": "Assets\\TableVisibleScript.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\TableVisibleScript.cs",
-              "RelativeToolTip": "Assets\\TableVisibleScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:06:10.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PracticeBtnChanger.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\PracticeBtnChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PracticeBtnChanger.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\PracticeBtnChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PracticeBtnChanger.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T20:21:50.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DrawerScript.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\DrawerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DrawerScript.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\DrawerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DrawerScript.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAUwA4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T20:12:54.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskBtnScript.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TaskBtnScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TaskBtnScript.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\TaskBtnScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TaskBtnScript.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswCcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T20:10:06.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CameraScript.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\CameraScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScript.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\CameraScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraScript.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAuwEsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T19:58:16.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "VoltmetrAnimControl.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VoltmetrAnimControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VoltmetrAnimControl.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\VoltmetrAnimControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VoltmetrAnimControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T07:16:29.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ColorChanger.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\ColorChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ColorChanger.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\ColorChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ColorChanger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:59:37.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AmpermetrBtn.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\AmpermetrBtn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AmpermetrBtn.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\AmpermetrBtn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AmpermetrBtn.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T23:03:54.948Z"
+              "WhenOpened": "2024-11-21T06:33:24.411Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Replacer.cs",
-              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\Replacer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Replacer.cs",
-              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\Replacer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Replacer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T23:03:21.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "QuestionButton.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\\Desktop\\\u041B\u0430\u0431\u044B\u041A\u041C\u0421\\3DS \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u002B Unity\\\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430\\Assets\\Scripts\\QuestionButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\QuestionButton.cs",
