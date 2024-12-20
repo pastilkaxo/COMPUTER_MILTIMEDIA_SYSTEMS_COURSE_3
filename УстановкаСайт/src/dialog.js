@@ -1,33 +1,59 @@
-var dialogOn = false;
+var dialogOn = false; // active/inactive
 
 function dialog_window() {
+  const SpeechKit = window.SpeechKitBrowserSDK;
+
+  // добавление интерфейса диалогового окна на страницу при загрузке
   document.body.innerHTML +=
+    "<div id='modal_container' class='modal_container'><img class='modal_image'/></div>" +
     "<div id='dialog' class='dialog' style='margin-left:-45px;'>" +
     "<div class='label' onclick='openDialog()'>Нажми, чтобы спросить!</div>" +
     "<div class='header'>История:</div>" +
     "<div class='history' id='history'></div>" +
-    "<div class='question'><input id='Qdialog' placeholder='Введите вопрос'/> <br><button onclick='ask(\"Qdialog\")'>Спросить</button></div>" +
+    "<div class='question'><input id='Qdialog' placeholder='Введите вопрос'/> <br/><button button onclick = 'ask(\"Qdialog\")' > Спросить</button ></div > " +
+    "<button class='voiceBtn'>Говорить</button>" +
     "</div>";
 
-  //API-ключ для подключения к речевому сервису Yandex
-  window.ya.speechkit.settings.apikey = "5c6d6536-b453-4589-9bc7-f16c7a795106";
-  //добавление элемента управления "Поле для голосового ввода"
-  //с выводом распознанной речи в строку ввода текста
-  var textline = new ya.speechkit.Textline("Qdialog", {
-    onInputFinished: function (text) {
-      document.getElementById("Qdialog").value = text;
-    },
+  const SpeechRecognition =
+    window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    alert("Ваш браузер не поддерживает распознавание речи.");
+    return;
+  }
+
+  const recognition = new SpeechRecognition();
+  recognition.lang = "ru-RU";
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+
+  recognition.onresult = (event) => {
+    const transcript = event.results[0][0].transcript;
+    const questionInput = document.querySelector("#Qdialog");
+    questionInput.value = transcript + "?";
+  };
+
+  recognition.onerror = (event) => {
+    console.error(`Ошибка распознавания речи: ${event.error}`);
+  };
+
+  document.querySelector(".voiceBtn").addEventListener("click", function () {
+    recognition.start();
   });
+
+  //API-ключ для подключения к речевому сервису Yandex
+  window.ya.speechkit.settings.apikey =
+    "AQVN0IkfUdYyk4mrmN8qkiZJCNU14gVJ74X_wIk2";
 }
 
 function openDialog() {
+  // animation
   if (dialogOn) {
     //анимация закрытия диалогового окна
     $("#dialog").animate({ "margin-left": "-45px" }, 1000, function () {});
     dialogOn = false;
   } else {
     //анимация открытия диалогового окна
-    $("#dialog").animate({ "margin-left": "-1100px" }, 1000, function () {});
+    $("#dialog").animate({ "margin-left": "-1370px" }, 1000, function () {});
     dialogOn = true;
     clearInterval(timer);
   }
@@ -58,7 +84,7 @@ function ask(questionInput) {
     "<audio controls='true' autoplay='true' " +
     "src='http://tts.voicetech.yandex.net/" +
     "generate?format=wav&lang=ru-RU&" +
-    "key=4a4d3a13-d206-45fc-b8fb-e5a562c9f587&" +
+    "key=AQVN0IkfUdYyk4mrmN8qkiZJCNU14gVJ74X_wIk2&" +
     "text=" +
     newDiv.innerText +
     "'></audio>";
@@ -74,3 +100,37 @@ function ask(questionInput) {
   //очистка текстового поля для ввода нового вопроса
   document.getElementById(questionInput).value = "";
 }
+
+let gotChanged = false;
+
+document.addEventListener("click", (event) => {
+  if (event.target.classList.contains("answer_image")) {
+    zoom(event.target);
+  }
+});
+
+function zoom(image) {
+  if (!gotChanged) {
+    let modal = document.querySelector(".modal_container");
+    let modalImg = document.querySelector(".modal_image");
+    if (modal && modalImg) {
+      modal.classList.add("modal_container_active");
+      modalImg.src = image.src;
+      gotChanged = true;
+    }
+  }
+}
+
+function hide() {
+  let modal = document.querySelector(".modal_container");
+  let modalImg = document.querySelector(".modal_image");
+  modalImg.src = null;
+  modal.classList.remove("modal_container_active");
+  gotChanged = false;
+}
+
+document.addEventListener("click", (event) => {
+  if (event.target.classList.contains("modal_container_active")) {
+    hide();
+  }
+});

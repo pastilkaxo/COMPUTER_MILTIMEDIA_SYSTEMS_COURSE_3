@@ -1,4 +1,4 @@
-"use stict";
+"use strict";
 
 const urlPath = window.location.href;
 const dynamicParts = document.querySelectorAll(".dynamic_image");
